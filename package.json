@@ -1,0 +1,24 @@
+{
+  "name": "react-speed",
+  "version": "0.0.1",
+  "description": "react 速度开发。简易布局、通用组件和主题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxcweb/react-speed.git"
+  },
+  "keywords": [
+    "react",
+    "speed",
+    "react-speed"
+  ],
+  "author": "dxcweb",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dxcweb/react-speed/issues"
+  },
+  "homepage": "https://github.com/dxcweb/react-speed#readme"
+}
