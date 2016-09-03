@@ -32,6 +32,8 @@ export default {
         indexRoute: Home,
         path: '/',
         component: App,
-        childRoutes: [Colors,Button]
+        childRoutes: [
+            Colors,Button
+        ]
     }]
 }
