@@ -20,7 +20,7 @@ module.exports = {
             {
                 test: /\.js[x]?$/,
                 exclude: /node_modules/,
-                loader: 'babel'
+                loader: 'babel',
             }, {
                 test: /\.less$/,
                 loader: 'style!css!less'

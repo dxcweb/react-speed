@@ -9,7 +9,7 @@ module.exports = {
     context: path.join(__dirname, 'example'),
     entry: {
         js: './index.js',
-        vendor: []
+        // vendor: []
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -33,7 +33,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            'speed': path.join(__dirname, '', 'src')
+            'react-speed': path.join(__dirname, '', 'src'),
         }
     },
     // postcss: [autoprefixer],
@@ -41,11 +41,11 @@ module.exports = {
         new webpack.DefinePlugin({
             "process.env": {}
         }),
-        new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
+        // new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
 
         new HtmlWebpackPlugin({
             template: path.join(__dirname, './example/template.html')
         }),
-        new OpenBrowserPlugin({url: 'http://127.0.0.1:7001/'})
+        new OpenBrowserPlugin({url: 'http://127.0.0.1:5000/'})
     ]
 };

@@ -1,10 +1,10 @@
 {
   "name": "react-speed",
   "version": "0.0.1",
-  "description": "react 速度开发。简易布局、通用组件和主题",
+  "description": "react 速度开发。简易布局、通用组件",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --hot --inline --progress --colors --port 6999",
+    "start": "webpack-dev-server --hot --inline --progress --colors --port 5000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,26 +22,18 @@
     "url": "https://github.com/dxcweb/react-speed/issues"
   },
   "homepage": "https://github.com/dxcweb/react-speed#readme",
-  "dependencies": {},
+  "dependencies": {
+    "inline-style-prefixer": "^2.0.1",
+    "lodash": "^4.15.0",
+    "react": "^15.3.1"
+  },
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-loader": "^5.3.2",
-    "classnames": "^2.2.5",
-    "color-diff": "^1.0.0",
-    "css-loader": "^0.24.0",
     "html-webpack-plugin": "^2.22.0",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
     "open-browser-webpack-plugin": "^0.0.2",
-    "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
-    "react-router-redux": "^4.0.5",
-    "recompose": "^0.20.2",
-    "redux": "^3.5.2",
-    "style": "^0.0.3",
-    "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
   }
