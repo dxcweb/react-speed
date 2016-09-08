@@ -7,7 +7,7 @@ import props from './props';
 
 export default class Block extends Component {
     static propTypes = {
-        el: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),//元素
+        el: PropTypes.any,//元素
         s: PropTypes.object,//style 样式
         w: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),//width 宽
         h: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),//height 高
