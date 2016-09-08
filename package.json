@@ -1,7 +1,7 @@
 {
   "name": "react-speed",
-  "version": "0.0.1",
-  "description": "react 速度开发。简易布局、通用组件",
+  "version": "0.0.2",
+  "description": "react 速度开发。简写布局、通用组件",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --progress --colors --port 5000",
