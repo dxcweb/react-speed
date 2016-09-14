@@ -2,9 +2,8 @@
  * Created by dxc on 2016/9/7.
  */
 import React from 'react'
-import Block from 'react-speed/Block/Block'
+import {Block} from 'react-speed'
 import {Link} from 'react-router'
-
 export default class Index extends React.Component {
     render() {
         return (
@@ -95,6 +94,16 @@ export default class Index extends React.Component {
                     <Block h={30} bc='#12d887' >4</Block>
                     <Block h={30}  bc='#12d887' >4</Block>
                     <Block h={30}  bc='#12d887' >4</Block>
+                </Block>
+                <Block   w={100}  bc='#cac4c4' wf >
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
+                    <Block w={30} m={10} bc='#12d887' >4</Block>
                 </Block>
             </Block>
         );

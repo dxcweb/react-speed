@@ -75,9 +75,14 @@ function flexStyle(props) {
         props.style['display'] = 'flex';
         props.style['flexFlow'] = 'row';
     }
-        props.f ? props.style['flex'] = props.f : 0;
+    if (props.wf != null) {
+        props.style['display'] = 'flex';
+        props.style['flexFlow'] = 'wrap';
+    }
+    props.f ? props.style['flex'] = props.f : 0;
     delete props.vf;
     delete props.hf;
+    delete props.wf;
     delete props.f;
 }
 function baseStyle(props) {

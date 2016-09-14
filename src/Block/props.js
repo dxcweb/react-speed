@@ -12,5 +12,4 @@ export default function (props) {
 function El(props) {
     if (props.el == null)
         props.el = 'div'
-    delete props.el;
 }
