@@ -1,6 +1,6 @@
 {
   "name": "react-speed",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react 速度开发。简写布局、通用组件",
   "files": [
     "example",
@@ -12,7 +12,8 @@
     "start": "webpack-dev-server --hot --inline --progress --colors --port 5000",
     "clean": "rimraf ./lib ./coverage",
     "build": "npm run clean & babel ./src --out-dir ./lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub":"npm publish && cnpm sync connect"
   },
   "repository": {
     "type": "git",

@@ -27,6 +27,7 @@ export default class Block extends Component {
         fw: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),//fontWeight 字体粗细
         vf: PropTypes.bool,//垂直
         hf: PropTypes.bool,//水平
+        wf: PropTypes.bool,//流布局
         j: React.PropTypes.oneOf(['s', 'c', 'e', 'a', 'b']),//垂直居中
         a: React.PropTypes.oneOf(['s', 'c', 'e'])//水平居中
     };

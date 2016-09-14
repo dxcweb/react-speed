@@ -29,7 +29,6 @@ function boxStyle(props) {
     } else if (props.j == 'c') {
         props.style['display'] = 'flex';
         props.style['justifyContent'] = 'center';
-        console.log(props.style['boxPack']);
     } else if (props.j == 'e') {
         props.style['display'] = 'flex';
         props.style['justifyContent'] = 'flex-end'
@@ -76,7 +75,7 @@ function flexStyle(props) {
         props.style['display'] = 'flex';
         props.style['flexFlow'] = 'row';
     }
-    props.f ? props.style['flex'] = props.f : 0;
+        props.f ? props.style['flex'] = props.f : 0;
     delete props.vf;
     delete props.hf;
     delete props.f;
