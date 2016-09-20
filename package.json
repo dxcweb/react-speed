@@ -1,6 +1,6 @@
 {
   "name": "react-speed",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "react 速度开发。简写布局、通用组件",
   "files": [
     "example",
