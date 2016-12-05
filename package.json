@@ -1,6 +1,6 @@
 {
   "name": "react-speed",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "react 速度开发。简写布局、通用组件",
   "files": [
     "example",
@@ -13,7 +13,7 @@
     "clean": "rimraf ./lib ./coverage",
     "build": "npm run clean & babel ./src --out-dir ./lib",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub":"npm publish && cnpm sync connect"
+    "pub": "npm publish && cnpm sync connect"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/dxcweb/react-speed#readme",
   "dependencies": {
-    "inline-style-prefixer": "^2.0.1",
+    "inline-style-prefixer": "^2.0.5",
     "lodash": "^4.15.0",
     "react": "^15.3.1"
   },
